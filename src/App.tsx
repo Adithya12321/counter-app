@@ -1,11 +1,16 @@
-import './App.css'
-import Counter from './components/Counter.tsx'
+import Header from './components/Header';
+import Dashboard from './components/Dashboard';
 
 function App() {
-
   return (
-    <div><Counter /></div>
+    <>
+      <Header />
+      <main>
+        <Dashboard />
+      </main>
+    </>
   )
 }
 
 export default App
+
